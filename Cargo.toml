@@ -5,7 +5,7 @@ edition = "2024"
 
 [dependencies]
 tokio = { version = "1", features = ["full"] }
-hickory-resolver = { version = "0.24", features = ["tokio-runtime", "dns-over-https-rustls"] }
+hickory-resolver = { version = "0.24", default-features = false, features = ["tokio-runtime", "dns-over-https-rustls"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 csv = "1.1"
@@ -13,5 +13,5 @@ clap = { version = "4.0", features = ["derive"] }
 indicatif = "0.17"
 futures = "0.3"
 anyhow = "1.0"
-reqwest = { version = "0.11", features = ["json", "rustls-tls"] }
+reqwest = { version = "0.11", default-features = false, features = ["json", "rustls-tls"] }
 url = "2.2"
