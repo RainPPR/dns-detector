@@ -12,7 +12,7 @@ pub struct DnsResolver {
 }
 
 const TIMEOUT: Duration = Duration::from_secs(3);
-const RETRY_THRESHOLD: i64 = 1000;
+const RETRY_THRESHOLD: i64 = 500;
 const MAX_RETRIES: u32 = 3;
 
 impl DnsResolver {

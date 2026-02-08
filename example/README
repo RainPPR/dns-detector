@@ -1,1 +1,168 @@
 这个文件夹中是示例 servers 文件，全部由 Gemini 3 Pro 自行生成，没有经过验证，因此可能有大量错误和冗余。本人实测，在 5min 中内可以跑完大部分，但是剩下的几乎需要 10min，可能是有大量错误的 dns 罢了，如果你的网络环境不好，请谨慎使用。
+
+下面的数据在日本进行测量：
+
+DNS Name                       Method     Avg Latency     Max        Min        Failures                        
+-----------------------------------------------------------------------------------------------
+AliDNS (Alibaba Cloud)         IPv4       264.38          734        12         15        
+AliDNS (Alibaba Cloud)         IPv4       201.78          874        6          15        
+AliDNS (Alibaba Cloud)         IPv6       273.36          866        10         15        
+AliDNS (Alibaba Cloud)         IPv6       255.23          880        4          15        
+AliDNS (Alibaba Cloud)         DoH        N/A             N/A        N/A        92        
+AliDNS (Alibaba Cloud)         DoH        N/A             N/A        N/A        92        
+AliDNS (Alibaba Cloud)         DoH        N/A             N/A        N/A        92        
+DNSPod (Tencent Cloud)         IPv4       220.44          866        9          15        
+DNSPod (Tencent Cloud)         IPv4       233.86          724        3          15        
+DNSPod (Tencent Cloud)         IPv4       268.86          862        8          15        
+DNSPod (Tencent Cloud)         IPv4       220.79          866        9          15        
+DNSPod (Tencent Cloud)         IPv6       254.96          883        0          15        
+DNSPod (Tencent Cloud)         DoH        289.12          850        115        0
+DNSPod (Tencent Cloud)         DoH        315.70          911        132        0
+DNSPod (Tencent Cloud)         DoH        322.62          915        154        0
+114DNS                         IPv4       219.79          842        2          15        
+114DNS                         IPv4       204.81          878        7          15        
+114DNS                         IPv4       236.84          867        6          15        
+114DNS                         IPv4       248.68          882        0          15        
+114DNS                         IPv4       182.17          864        6          15        
+114DNS                         IPv4       262.29          867        0          15        
+Baidu DNS                      IPv4       197.03          748        3          15        
+Baidu DNS                      IPv6       269.32          878        0          15        
+CNNIC SDNS                     IPv4       241.05          871        2          15        
+CNNIC SDNS                     IPv4       238.53          795        9          15
+CNNIC SDNS                     IPv6       219.01          866        4          15
+Volcengine DNS (ByteDance)     IPv4       257.30          879        0          15
+Volcengine DNS (ByteDance)     IPv4       252.62          877        5          15
+Volcengine DNS (ByteDance)     IPv6       189.38          882        10         15
+Google Public DNS              IPv4       225.08          881        0          15
+Google Public DNS              IPv4       275.08          869        12         15
+Google Public DNS              IPv6       200.78          635        5          15
+Google Public DNS              IPv6       272.44          872        8          15
+Google Public DNS              DoH        N/A             N/A        N/A        92
+Cloudflare DNS                 IPv4       243.09          876        8          15
+Cloudflare DNS                 IPv4       182.66          862        6          15
+Cloudflare DNS                 IPv4       133.60          737        3          15
+Cloudflare DNS                 IPv4       199.43          864        4          15
+Cloudflare DNS                 IPv4       220.68          878        9          15
+Cloudflare DNS                 IPv4       246.52          733        9          15
+Cloudflare DNS                 IPv6       253.39          882        11         15
+Cloudflare DNS                 IPv6       255.96          867        0          15
+Cloudflare DNS                 DoH        190.39          1167       108        2
+Cloudflare DNS                 DoH        217.05          2660       107        1
+Cloudflare DNS                 DoH        229.57          1335       108        0
+Cloudflare DNS                 DoH        N/A             N/A        N/A        92
+Cloudflare DNS                 DoH        N/A             N/A        N/A        92
+OpenDNS (Cisco)                IPv4       182.38          737        8          15
+OpenDNS (Cisco)                IPv4       200.19          696        0          15
+OpenDNS (Cisco)                IPv4       207.30          870        2          15
+OpenDNS (Cisco)                IPv4       158.47          606        5          15
+OpenDNS (Cisco)                IPv6       231.60          748        8          15
+OpenDNS (Cisco)                IPv6       214.60          869        7          15
+OpenDNS (Cisco)                IPv6       223.31          873        0          15
+OpenDNS (Cisco)                IPv6       256.78          869        0          15
+OpenDNS (Cisco)                DoH        N/A             N/A        N/A        92
+OpenDNS (Cisco)                DoH        N/A             N/A        N/A        92
+Quad9                          IPv4       254.42          869        0          15
+Quad9                          IPv4       236.45          744        5          15
+Quad9                          IPv6       236.96          879        7          15
+Quad9                          IPv6       248.19          867        0          15
+Quad9                          DoH        N/A             N/A        N/A        92
+AdGuard DNS                    IPv4       191.71          796        4          15
+AdGuard DNS                    IPv4       212.29          864        2          15
+AdGuard DNS                    IPv6       184.03          612        1          15
+AdGuard DNS                    IPv6       235.30          880        0          15
+AdGuard DNS                    DoH        N/A             N/A        N/A        92
+DNS.WATCH                      IPv4       257.39          850        8          15
+DNS.WATCH                      IPv4       205.31          868        8          15
+DNS.WATCH                      IPv6       259.66          861        8          15
+DNS.WATCH                      IPv6       248.75          881        0          15
+Level3 (CenturyLink/Lumen)     IPv4       204.74          869        4          15
+Level3 (CenturyLink/Lumen)     IPv4       214.25          860        0          15
+Level3 (CenturyLink/Lumen)     IPv4       280.74          870        13         15
+Level3 (CenturyLink/Lumen)     IPv4       219.25          859        6          15
+Verisign Public DNS            IPv4       250.31          871        0          15
+Verisign Public DNS            IPv4       260.01          859        6          15
+Verisign Public DNS            IPv6       258.08          877        9          15
+Verisign Public DNS            IPv6       258.44          869        3          15
+Mullvad DNS                    IPv4       235.53          673        0          15
+Mullvad DNS                    IPv6       257.32          868        1          15
+Mullvad DNS                    DoH        N/A             N/A        N/A        92
+UncensoredDNS                  IPv4       197.62          867        2          15
+UncensoredDNS                  IPv4       247.13          733        9          15
+UncensoredDNS                  IPv6       276.40          867        0          15
+UncensoredDNS                  IPv6       259.68          864        6          15
+CleanBrowsing (Security)       IPv4       258.82          847        0          15
+CleanBrowsing (Security)       IPv4       234.88          863        7          15
+CleanBrowsing (Security)       IPv6       266.30          876        7          15
+CleanBrowsing (Security)       IPv6       218.14          882        7          15
+CleanBrowsing (Security)       DoH        N/A             N/A        N/A        92
+Comodo Secure DNS              IPv4       215.44          874        7          15
+Comodo Secure DNS              IPv4       249.22          882        10         15
+Control D                      IPv4       255.82          868        9          15
+Control D                      IPv4       251.17          726        5          15
+Control D                      IPv6       245.31          868        10         15
+Control D                      IPv6       263.51          866        4          15
+Control D                      DoH        172.05          1130       109        1
+DNS4EU (Protective)            IPv4       242.19          734        8          15
+DNS4EU (Protective)            IPv4       249.95          880        3          15
+DNS4EU (Protective)            IPv6       223.97          870        4          15
+DNS4EU (Protective)            IPv6       285.43          871        10         15
+DNS4EU (Protective)            DoH        N/A             N/A        N/A        92
+Hurricane Electric (HE.net)    IPv4       217.94          735        2          15
+Hurricane Electric (HE.net)    IPv6       204.53          880        4          15
+Hurricane Electric (HE.net)    DoH        N/A             N/A        N/A        92        
+DNS.SB                         IPv4       213.48          881        0          15
+DNS.SB                         IPv4       259.75          880        10         15
+DNS.SB                         IPv6       279.61          864        9          15
+DNS.SB                         IPv6       226.66          859        8          15
+DNS.SB                         DoH        260.44          1420       123        1
+Quad101                        IPv4       203.75          736        3          15
+Quad101                        IPv4       244.08          734        9          15
+Quad101                        IPv6       257.58          868        8          15
+Quad101                        IPv6       215.34          874        2          15
+Neustar UltraDNS Public        IPv4       253.47          746        8          15
+Neustar UltraDNS Public        IPv4       252.34          999        9          15
+Neustar UltraDNS Public        IPv6       235.27          877        0          15
+Neustar UltraDNS Public        IPv6       210.30          879        6          15
+LibreDNS                       IPv4       236.43          868        3          15
+LibreDNS                       IPv6       258.40          882        0          15
+LibreDNS                       DoH        N/A             N/A        N/A        92
+Applied Privacy                IPv4       275.17          880        0          15
+Applied Privacy                IPv6       228.42          871        5          15
+Applied Privacy                DoH        N/A             N/A        N/A        92
+Yandex DNS                     IPv4       251.40          865        7          15
+Yandex DNS                     IPv4       255.87          878        0          15
+Yandex DNS                     IPv6       244.39          878        5          15
+Yandex DNS                     IPv6       231.26          875        9          15
+Restena DNS                    IPv4       206.62          876        5          15
+Restena DNS                    IPv6       213.56          882        3          15
+Restena DNS                    DoH        N/A             N/A        N/A        92
+FDN (French Data Network)      IPv4       219.22          637        5          15
+FDN (French Data Network)      IPv4       234.42          872        9          15
+FDN (French Data Network)      IPv6       192.44          878        0          15
+FDN (French Data Network)      IPv6       263.77          870        11         15
+Tsinghua University TUNA DNS   IPv4       256.55          865        5          15
+Tsinghua University TUNA DNS   IPv6       256.88          878        3          15
+DNSPai                         IPv4       225.12          882        4          15
+DNSPai                         IPv4       256.44          881        7          15
+DNSPai                         IPv4       220.99          862        6          15
+DNSPai                         IPv4       97.17           876        4          15
+360DNS                         IPv4       196.22          878        5          15
+360DNS                         IPv4       192.06          875        8          15
+360DNS                         IPv4       222.45          860        7          15
+360DNS                         IPv4       247.62          864        9          15
+360DNS                         DoH        N/A             N/A        N/A        92
+OneDNS                         IPv4       210.05          865        5          15
+OneDNS                         IPv4       243.01          740        6          15
+OneDNS                         IPv4       152.34          615        7          15
+OneDNS                         IPv4       204.95          617        7          15
+OneDNS                         IPv4       134.34          858        8          15
+OneDNS                         IPv4       221.58          604        7          15
+OneDNS                         IPv6       212.42          619        0          15
+OneDNS                         IPv6       236.53          640        2          15
+OneDNS                         IPv6       234.49          868        6          15
+OneDNS                         IPv6       194.06          657        6          15
+OneDNS                         DoH        N/A             N/A        N/A        92
+OneDNS                         DoH        N/A             N/A        N/A        92
+IPv6 Public DNS (BII)          IPv6       203.12          640        7          15
+IPv6 Public DNS (BII)          IPv6       208.06          865        11         15
+IPv6 Public DNS (BII)          DoH        N/A             N/A        N/A        92
