@@ -1,0 +1,288 @@
+{
+    "servers": [
+        {
+            "name": "Google",
+            "description": "全球最大的搜索引擎及各类互联网服务",
+            "url": [
+                "google.com",
+                "google.com.hk",
+                "gstatic.com",
+                "googleapis.com",
+                "googleusercontent.com",
+                "google-analytics.com",
+                "googletagmanager.com"
+            ]
+        },
+        {
+            "name": "YouTube",
+            "description": "全球最大的视频分享与流媒体平台",
+            "url": [
+                "youtube.com",
+                "youtu.be",
+                "ytimg.com",
+                "googlevideo.com",
+                "ggpht.com"
+            ]
+        },
+        {
+            "name": "Facebook",
+            "description": "全球知名社交网络服务",
+            "url": [
+                "facebook.com",
+                "fb.com",
+                "fb.me",
+                "messenger.com",
+                "fbsbx.com"
+            ]
+        },
+        {
+            "name": "Twitter / X",
+            "description": "全球微型博客与实时信息交流平台",
+            "url": [
+                "twitter.com",
+                "x.com",
+                "t.co",
+                "twimg.com",
+                "abs.twimg.com"
+            ]
+        },
+        {
+            "name": "Telegram",
+            "description": "高度加密的即时通讯应用",
+            "url": [
+                "telegram.org",
+                "t.me",
+                "telegra.ph",
+                "tdesktop.com"
+            ]
+        },
+        {
+            "name": "OpenAI / ChatGPT",
+            "description": "知名人工智能对话与研究平台",
+            "url": [
+                "openai.com",
+                "chatgpt.com",
+                "oaistatic.com",
+                "oaiusercontent.com"
+            ]
+        },
+        {
+            "name": "Wikipedia",
+            "description": "全球多语言自由百科全书",
+            "url": [
+                "wikipedia.org",
+                "wikimedia.org",
+                "wikibooks.org",
+                "wikisource.org",
+                "wikidata.org"
+            ]
+        },
+        {
+            "name": "GitHub",
+            "description": "全球最大的代码托管与开源协作平台，存在严重的DNS污染及间歇性封锁",
+            "url": [
+                "github.com",
+                "github.io",
+                "githubusercontent.com",
+                "githubassets.com",
+                "github.blog"
+            ]
+        },
+        {
+            "name": "Reddit",
+            "description": "大型综合性新闻、讨论及社区平台",
+            "url": [
+                "reddit.com",
+                "redd.it",
+                "redditstatic.com",
+                "redditmedia.com"
+            ]
+        },
+        {
+            "name": "Discord",
+            "description": "专为游戏玩家和社群设计的即时通讯软件",
+            "url": [
+                "discord.com",
+                "discord.gg",
+                "discordapp.com",
+                "discordapp.net"
+            ]
+        },
+        {
+            "name": "Instagram",
+            "description": "以图片和短视频为主的社交平台",
+            "url": [
+                "instagram.com",
+                "cdninstagram.com"
+            ]
+        },
+        {
+            "name": "WhatsApp",
+            "description": "全球广泛使用的即时通讯工具",
+            "url": [
+                "whatsapp.com",
+                "whatsapp.net",
+                "wa.me"
+            ]
+        },
+        {
+            "name": "Pinterest",
+            "description": "视觉发现及图片收藏平台",
+            "url": [
+                "pinterest.com",
+                "pinimg.com"
+            ]
+        },
+        {
+            "name": "Twitch",
+            "description": "全球最大的游戏直播平台",
+            "url": [
+                "twitch.tv",
+                "ttvnw.net"
+            ]
+        },
+        {
+            "name": "Medium",
+            "description": "社会化深度写作与博文分享平台",
+            "url": [
+                "medium.com"
+            ]
+        },
+        {
+            "name": "Quora",
+            "description": "全球性的知识问答社区",
+            "url": [
+                "quora.com",
+                "quoracdn.net"
+            ]
+        },
+        {
+            "name": "The New York Times",
+            "description": "纽约时报官方网站",
+            "url": [
+                "nytimes.com",
+                "nyt.com",
+                "nytstyle.com"
+            ]
+        },
+        {
+            "name": "BBC",
+            "description": "英国广播公司新闻网站",
+            "url": [
+                "bbc.com",
+                "bbc.co.uk",
+                "bbci.co.uk"
+            ]
+        },
+        {
+            "name": "Reuters",
+            "description": "路透社新闻门户",
+            "url": [
+                "reuters.com",
+                "reutersmedia.net"
+            ]
+        },
+        {
+            "name": "Bloomberg",
+            "description": "彭博社商业及金融新闻",
+            "url": [
+                "bloomberg.com",
+                "bloomberg.net"
+            ]
+        },
+        {
+            "name": "DuckDuckGo",
+            "description": "主打隐私保护的搜索引擎",
+            "url": [
+                "duckduckgo.com"
+            ]
+        },
+        {
+            "name": "Dropbox",
+            "description": "知名云存储与文件共享服务",
+            "url": [
+                "dropbox.com",
+                "dropboxstatic.com",
+                "dropboxusercontent.com"
+            ]
+        },
+        {
+            "name": "OneDrive",
+            "description": "微软个人云端硬盘，国内访问极其不稳定",
+            "url": [
+                "onedrive.live.com",
+                "1drv.ms"
+            ]
+        },
+        {
+            "name": "Slack",
+            "description": "企业级团队协作工具，存在严重的访问延迟和间歇性阻断",
+            "url": [
+                "slack.com",
+                "slack-edge.com",
+                "slack-msgs.com"
+            ]
+        },
+        {
+            "name": "Vimeo",
+            "description": "高清视频托管与分享平台",
+            "url": [
+                "vimeo.com",
+                "vimeocdn.com"
+            ]
+        },
+        {
+            "name": "Line",
+            "description": "日本及东南亚常用的即时通讯应用",
+            "url": [
+                "line.me",
+                "line-apps.com",
+                "line-cdn.net"
+            ]
+        },
+        {
+            "name": "Tumblr",
+            "description": "轻博客社交服务平台",
+            "url": [
+                "tumblr.com"
+            ]
+        },
+        {
+            "name": "DeviantArt",
+            "description": "艺术创作分享社区",
+            "url": [
+                "deviantart.com"
+            ]
+        },
+        {
+            "name": "Flickr",
+            "description": "雅虎旗下的照片分享存储平台",
+            "url": [
+                "flickr.com"
+            ]
+        },
+        {
+            "name": "Bitly",
+            "description": "知名的短链接生成服务",
+            "url": [
+                "bitly.com",
+                "bit.ly"
+            ]
+        },
+        {
+            "name": "Archive.org",
+            "description": "互联网档案馆",
+            "url": [
+                "archive.org"
+            ]
+        },
+        {
+            "name": "Pixiv",
+            "description": "日本知名插画社交网站",
+            "url": [
+                "pixiv.net",
+                "pximg.net"
+            ]
+        }
+    ]
+}
